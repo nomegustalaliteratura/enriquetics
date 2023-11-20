@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+{*
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size: 1.8rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 50px;
+	font-family: 'Bangers';
+	color: #828282;
+}
+
+h3 {
+	font-size: 1.4rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 400;
+	font-family: 'Bangers';
+	color: #828282;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 20px;
+}
+
+.texto-contacto{
+	font-size: 16px;
+}
+
+.medium{
+	font-size: 19px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 40px;
+	letter-spacing: 1px;
+	font-family: 'Bangers';
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.btn-outline:hover { 
+	background: #FF0000;
+	color: #FFFF00;
+}
+
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#navbar .logo {
+	float: left;
+	padding-top: 12px;
+}
+
+#navbar img {
+	height: 80px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#showcase {
+ 	background-image: url("img/fondo2.png");
+ 	background: ;background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 550px;
+	text-align: center;
+	padding: 100px;
+	
+}
+#showcase .btn {
+	margin-top: 180px;
+}
+
+#projects {
+	padding: 80px 0;
+}
+
+.projects-row {
+	display: flex;
+}
+
+.projects-row img {
+	width: 100%;
+}
+
+#about {
+	padding: 80px 0;
+	background: #f9f9f9;
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+	width: 50%;
+	padding-left: 50px;
+}
+
+#contact {
+	padding: 80px 0;
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 33%;
+	text-align: center;
+}
+
+.contact-row-icon img {
+	height: 60px;
+}
+
+#mainfooter {
+	background: #f9f9f9;
+	text-align: center;
+	padding: 30px;
+}
+.hidden-link {
+display: none;
+}
+.hidden-link:hover {
+display: inline;
+}
+.btn-sm{
+background: transparent;
+border: 1px solid #fff;
+color: #828282;
+text-transform: uppercase;
+font-weight: 300;
+display: block;
+padding: 10px;
+text-align: center;
+font-size: 26px;
+font-family: 'Bangers';
+}
+
+.btn-outlines {
+background: transparent;
+border: 1px solid #fff;
+color: #fff;
+text-transform: uppercase;
+font-weight: 300;
+}
+
+.btn-outlines:hover {
+background: #808080;
+color: #FFFF00;
+}
